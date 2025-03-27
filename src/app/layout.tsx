@@ -23,7 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      data-bybit-channel-name="AZ9WDoc4NpOwqp7AkRo-3"
+      data-bybit-is-default-wallet="true"
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
